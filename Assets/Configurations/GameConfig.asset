@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a0cdf0cc6f94f4bbae45a6527c0ad5, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  SphereVisualizerPrefab: {fileID: 8797551976465691931, guid: ae805020d61d7824c9b5d3d6381925b5, type: 3}
+  CubePrefab: {fileID: 4777923899138320032, guid: e499a692e71bbcc419d0bec72dece85f, type: 3}
+  SpherePrefab: {fileID: 5172817970379516563, guid: 49364d52c75333e4cb6c6a84cce5676c, type: 3}
+  UIManagerPrefab: {fileID: 4865622527791531621, guid: 3ae3bf283670925498ba759eb9936acc, type: 3}
+  GameScreenPrefab: {fileID: 2252063819916902839, guid: c63dc8947b8e5ef4a978e1723b25c245, type: 3}
+  CurtainPrefab: {fileID: 7861419437686120035, guid: 735e0dc48bf0bd648ab5a92946df34ff, type: 3}
+  CubeColors:
+  - {r: 1, g: 0, b: 0, a: 0}
+  - {r: 0, g: 1, b: 0.08687377, a: 0}
+  InputConfigs:
+  - UpInput: 119
+    DownInput: 115
+    RightInput: 100
+    LeftInput: 97
+  - UpInput: 273
+    DownInput: 274
+    RightInput: 275
+    LeftInput: 276
+  SphereCount: 20
+  CubeCount: 2
+  TimeToRepeatCheckDistance: 0.1
+  SpherePositionRadius: 10
+  DrawSphereDistance: 2
+  TriggerDistanceBetweenCubes: 1
+  HideCurtainDelay: 6
+  TriggerSceneName: Level2
